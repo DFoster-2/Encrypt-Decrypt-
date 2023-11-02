@@ -28,7 +28,7 @@ def start():
   global root
   root = Tk()
   root.title("Menu")
-  label = Label (root, text = "Encrypt/Decrypt/\nWord/Prefrances:")
+  label = Label (root, text = "Encrypt/Decrypt/\nWord/Preferences:")
   label.config(font=('Helvetica bold underline',20))
   e = Entry(root,width = 10, borderwidth = 3)
   button = Button(root, text = "Submit", command= lambda: submit2(e.get()) )
