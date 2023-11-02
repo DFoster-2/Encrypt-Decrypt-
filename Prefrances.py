@@ -24,13 +24,13 @@ def endingsChangeSetUp():
   global root2
   root2.destroy()
   root3 = Tk()
-  root3.title(".somthing - Prefrances")
+  root3.title(".something - Preferences")
   root3.geometry("300x120")
   label = Label (root3, text = ".somthing")
   label.config(font=('Helvetica bold underline',20))
   e2 = Entry(root3,width = 10, borderwidth = 3)
   e2.insert(0,".")
-  label3 = Label(root3,text =  "Type a ending you wants\n to use, stick to text files")
+  label3 = Label(root3,text =  "Type a ending you want\n to use, stick to text files")
   button = Button(root3, text = "Submit", command= lambda: endingsChange(e2.get()))
   button2 = Button(root3, text = "Home", command= Home)
   label.grid(row =0 ,column=0, columnspan=2 )
@@ -51,7 +51,7 @@ def Pathsetup():
   global root
   root2.destroy()
   root = Tk()
-  root.title(".somthing - Path")
+  root.title(".something - Path")
   root.geometry("300x120")
   label = Label (root, text = "Path")
   label.config(font=('Helvetica bold underline',20))
@@ -69,7 +69,7 @@ def Pathsetup():
 def SetUP():
   global root2
   root2 = Tk()
-  root2.title("Home - Prefrances")
+  root2.title("Home - Preferences")
   root2.geometry("150x100")
   label = Label (root2, text = "Home")
   label.config(font=('Helvetica bold underline',20))
