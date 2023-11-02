@@ -43,7 +43,7 @@ def setupE():
   variable.set(endings[0]) 
   w = OptionMenu(root2, variable, *endings) 
 
-  label3 = Label(root2,text =  "If you want to set up\n a defolt\n path or add a ending \ngo to the menu \nand click preferences")
+  label3 = Label(root2,text =  "If you want to set up\n a default\n path or add a ending \ngo to the menu \nand click preferences")
   label3.grid(row = 0,rowspan= 2, column= 2 )
   button2 =  Button(root2, text = "Home", command= home)
   button2.grid(row = 2, column= 2)
