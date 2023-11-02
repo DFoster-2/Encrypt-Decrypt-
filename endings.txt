@@ -1,0 +1,11 @@
+.py
+.txt
+.swift
+.c
+.class
+.cgi
+.cpp
+.cs
+.php
+.java
+.ac
